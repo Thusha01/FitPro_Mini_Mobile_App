@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
   },
   bannerImage: {
     marginBottom: 30,
-    height: 400,
-    width: 450,
+    height: 355,
+    width: 400,
     resizeMode: "cover",
     borderRadius: 20,
   },
@@ -80,12 +80,12 @@ const styles = StyleSheet.create({
     color: colors.white,
     fontSize: 18,
     fontFamily: fonts.SemiBold,
-    margin:50,
+    textAlign: "center",
   },
   signupButtonText: {
     color: colors.white,
     fontSize: 18,
     fontFamily: fonts.SemiBold,
-    margin:50,
+    textAlign: "center",
   },
 });
