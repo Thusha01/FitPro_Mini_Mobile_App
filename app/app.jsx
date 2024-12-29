@@ -3,7 +3,7 @@ import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, SafeAreaView } from "react-native";
 
-const Layout = () => {
+const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="auto" />
@@ -18,7 +18,7 @@ const Layout = () => {
   );
 };
 
-export default Layout;
+export default App;
 
 const styles = StyleSheet.create({
   container: {
